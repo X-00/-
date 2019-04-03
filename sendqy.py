@@ -44,7 +44,7 @@ def msg():
 			main(keys,value)
 		
 if __name__=='__main__':
-	while true:
+	while True:
 		now=datetime.datetime.now()
 		if now.hour==23 and now.minute==0 and now.second==0:
 			msg()
